@@ -1,0 +1,123 @@
+body {
+  background: #F5B8C9;
+  color: #fff;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  background: #ff93b2;
+}
+
+#navcol-1 a {
+  color: white;
+}
+
+#carousel-1 {
+  width: 30%;
+  margin: auto;
+}
+
+.models img {
+  width: 70%;
+}
+
+.models {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .models {
+    margin-top: 30px;
+    padding: 10px 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .models p {
+    margin-bottom: 60px;
+  }
+}
+
+.present {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.present .line {
+  width: 50%;
+  height: 3px;
+  background: rgb(244,127,147);
+  margin: auto;
+}
+
+.navbar-brand a {
+  color: #fff;
+}
+
+body.dark {
+  color: pink;
+}
+
+body.dark #navcol-1 a {
+  color: pink;
+}
+.footer-basic{
+  background: #F5B8C9;
+}
+
+body.dark .footer-basic {
+  background: #0D0D0D;
+  color: pink;
+}
+
+.boton {
+  background: none;
+  border-radius: 30px;
+  border: 2px rgb(80, 255, 255) solid;
+  font-size: 18px;
+  padding: 5px 30px;
+}
+
+body.dark .boton {
+  position: relative;
+  background: linear-gradient(-45deg, #654ea3, #eaafc8);
+  background-size: 400% 400%;
+  animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.contacto {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 992px) {
+  .contacto .row .boton {
+    margin-bottom: 40px;
+  }
+}
+
+body.dark .line {
+  position: relative;
+  background: linear-gradient(to right, #654ea3, #eaafc8);
+  background-size: 400% 400%;
+  animation: change 10s ease-in-out infinite;
+}
+
